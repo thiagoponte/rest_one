@@ -16,5 +16,5 @@ public class DatabaseLoader implements CommandLineRunner {
     public void run(String... args) throws Exception {
         this.repository.save(new Employee("Frodo", "Baggins", "Ring bearer"));
     }
-    
+
 }
